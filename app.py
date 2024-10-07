@@ -23,7 +23,7 @@ def toxic_prediction(text):
 st.header("Toxic Comment Detection Web App")
 
 # Add your image above the result section
-image_path = "toxic...jpeg" 
+image_path = "toxic.jpg" 
 st.image(image_path, caption="Toxic Comment Detection", use_column_width=True)
 
 st.subheader("Input your text")

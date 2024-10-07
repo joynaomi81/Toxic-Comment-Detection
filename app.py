@@ -1,15 +1,15 @@
 import streamlit as st
-import pickle 
+import joblib
 import numpy as np 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 def load_tfidf():
-    tfidf = pickle.load(open("feature.pkt.pkt", "rb"))
+    tfidf = joblib.load(open("feature.pkt.pkt", "rb"))
     return tfidf
 
 def load_model():
-    nb_model = pickle.load(open("toxic model.pkt.ptk", "rb"))
+    nb_model = joblib.load(open("toxic model.pkt.ptk", "rb"))
     return nb_model
 
 def toxic_prediction(text):

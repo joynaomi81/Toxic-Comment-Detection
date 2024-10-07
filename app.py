@@ -20,7 +20,7 @@ def toxic_prediction(text):
     class_name = "Toxic" if prediction == 1 else "Non-Toxic"
     return class_name
 
-st.header("Toxic Comment Detection Web App")
+st.header("Toxic Comments Detection Web App")
 
 # Add your image above the result section
 image_path = "toxic.jpg" 

@@ -1,0 +1,4 @@
+scikit-learn
+uvicorn
+numpy
+streamlit

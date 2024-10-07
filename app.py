@@ -9,7 +9,7 @@ def load_tfidf():
     return tfidf
 
 def load_model():
-    nb_model = joblib.load(open("toxic model.pkt.ptk", "rb"))
+    nb_model = joblib.load(open("toxic model.pkt.pkt", "rb"))
     return nb_model
 
 def toxic_prediction(text):

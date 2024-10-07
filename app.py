@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 def load_tfidf():
-    tfidf = pickle.load(open("feature.pkt.ptk", "rb"))
+    tfidf = pickle.load(open("feature.pkt.pkt", "rb"))
     return tfidf
 
 def load_model():

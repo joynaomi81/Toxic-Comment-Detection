@@ -7,13 +7,14 @@ Toxic Comments Classification dataset sourced from kaggle was used for this proj
 # Data preprocessing
 Text Normalization
 
-Lowering text.
-Tokenization .
-Stemming.
-Removing stopwords.
-Removing punctuation.
+* Lowering text.
+* Tokenization .
+* Stemming.
+* Removing stopwords.
+* Removing punctuation.
+  
 
-Vectorization
+* Vectorization
 
 This is the process of converting text into numerical vectors. For this project, Term Frequency-Inverse Document Frequency (TF-IDF) was used.
 
